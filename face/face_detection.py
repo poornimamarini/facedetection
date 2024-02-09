@@ -20,8 +20,8 @@ import cv2
 import sys
 
 # Load the cascade classifiers
-frontalFaceCascade = cv2.CascadeClassifier("haarcascades/haarcascade_frontalface_default.xml")
-profileFaceCascade = cv2.CascadeClassifier("haarcascades/haarcascade_profileface.xml")
+frontalFaceCascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
+profileFaceCascade = cv2.CascadeClassifier("haarcascade_profileface.xml")
 
 # Color in BGR
 blue = (247, 173, 62)
